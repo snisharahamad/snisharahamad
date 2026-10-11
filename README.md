@@ -1,14 +1,14 @@
 <div align="center">
   <h1 align="center">⚡ Architecting Secure Infrastructure & Data Pipelines</h1>
   <p align="center">
-    <strong>Engineering Student (BTS SIO) | Cyber Reserve Candidate | Aiming for Top-Tier Engineering Schools (AST)</strong>
+    <strong>Security Automation & SecOps | Engineering Student (AST Candidate)</strong>
   </p>
   <p align="center">
-    I am a Cybersecurity & Infrastructure enthusiast based in France, building automated, scalable, and secure systems. My focus is on bridging the gap between Software Engineering, DevOps, and SecOps, treating infrastructure as code and security as a pipeline.
+    I build robust infrastructures and defensive security pipelines. Bridging the gap between Software Engineering and Cybersecurity, my focus is on automation, threat intelligence, and treating infrastructure as code (IaC).
   </p>
 
   <p align="center">
-    <a href="https://www.linkedin.com/in/sahil-nishar-ahamad/">
+    <a href="www.linkedin.com/in/sahil-nishar-ahamad">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
   </p>
