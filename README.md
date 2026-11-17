@@ -1,63 +1,52 @@
 <div align="center">
-  <h1 align="center">⚡ Architecting Secure Infrastructure & Data Pipelines</h1>
+  <h1 align="center">Infrastructure Automation & Observability</h1>
   <p align="center">
-    <strong>Security Automation & SecOps | Engineering Student (AST Candidate)</strong>
+    <strong>Software Engineer | Systems & Infrastructure Operations</strong>
   </p>
   <p align="center">
-    I build robust infrastructures and defensive security pipelines. Bridging the gap between Software Engineering and Cybersecurity, my focus is on automation, threat intelligence, and treating infrastructure as code (IaC).
+    I build and manage local infrastructure, focusing on automation, logging pipelines, and configuration management. My current stack revolves around containerization, Linux systems, and building custom tooling in Go and Python.
   </p>
-
-  <p align="center">
+<p align="center">
     <a href="https://www.linkedin.com/in/sahil-nishar-ahamad/">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
   </p>
 </div>
-
 <br/>
-
-## 🛠️ Tech Stack & Arsenal
-
+🛠️ Technologies & Tools
 <div align="center">
+  <img src="https://img.shields.io/badge/Golang-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux_Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white" />
   <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
   <img src="https://img.shields.io/badge/Traefik-24A1C1?style=for-the-badge&logo=traefik&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
 </div>
-
 <br/>
-
-## 🛡️ Featured Architecture & Security Projects
-
-### 1️⃣ [Sentinel-SOAR](https://github.com/snisharahamad/sentinel-soar) | *Security Orchestration, Automation, and Response*
-> **Tech:** Python, SQLite, REST APIs, JSON Parsing, dotenv
-* Engineered a real-time Python daemon to monitor Cowrie SSH honeypot logs via non-blocking I/O.
-* Automated intrusion archiving in a local SQLite relational database for historical threat analysis.
-* Implemented a sub-second alerting pipeline via Discord webhooks to notify of critical breaches.
-
-### 2️⃣ [Honeypot PLG Stack](https://github.com/snisharahamad/sentinel-honeypott) | *Threat Intelligence Observability*
-> **Tech:** Docker Compose, Cowrie, Promtail, Loki, Grafana
-* Deployed an isolated Cowrie honeypot environment to intercept and log malicious SSH/Telnet traffic.
-* Bypassed CGNAT constraints via local orchestration to ensure continuous data flow.
-* Built a comprehensive observability pipeline routing telemetry through Promtail and Loki into Grafana dashboards.
-
-### 3️⃣ [Traefik Infrastructure](https://github.com/snisharahamad/architecture-microservices-docker) | *Cloud-Native Edge Routing*
-> **Tech:** Traefik, Docker Compose, Network Security, Reverse Proxy
-* Architected a secure reverse-proxy infrastructure to orchestrate traffic across containerized microservices.
-* Implemented strict routing rules and load balancing to ensure high availability and isolation of backend services.
-
-### 4️⃣ [Threat Intel Analyzer](https://github.com/snisharahamad/Threat-Intel-Analyzer) | *Automated Threat Analysis*
-> **Tech:** Python, API Integration, OSINT, Threat Intelligence
-* Developed an API-driven analysis tool designed to parse and evaluate malicious payloads and IP reputation.
-* Automated the OSINT gathering process, accelerating incident response and threat qualification.
-
+📁 Core Infrastructure Projects
+1️⃣ linux-policy-agent (In Development) | System Configuration Daemon
+> **Tech:** Golang, Linux iptables, JSON
+Building a system agent in Go to automate Linux configuration management.
+Implementing JSON-based state parsing and file caching mechanisms.
+Developing programmatic workflows to update local network policies (iptables) autonomously.
+2️⃣ cowrie-telemetry-daemon | Log Parsing & Alerting
+> **Tech:** Python, SQLite, REST APIs
+Built a lightweight Python daemon to parse Cowrie honeypot logs via non-blocking I/O.
+Configured local SQLite ingestion for historical queries of SSH authentication events.
+Implemented an asynchronous webhook pipeline to trigger real-time alerts on specific log patterns.
+3️⃣ observability-plg-stack | Metrics & Log Visualization
+> **Tech:** Docker Compose, Promtail, Loki, Grafana
+Deployed a local containerized stack to aggregate system logs and SSH metrics.
+Configured Promtail to scrape local log files and forward them to Loki.
+Built Grafana dashboards to monitor container health and visualize authentication attempts over time.
+4️⃣ docker-traefik-proxy | Container Routing
+> **Tech:** Traefik, Docker Compose, HTTP Routing
+Configured a Traefik reverse-proxy to manage incoming traffic for multiple Docker services.
+Defined local routing rules and exposed endpoints dynamically based on container labels.
+Isolated backend services on dedicated Docker networks to restrict direct access.
 <br/>
-
-## 📈 GitHub Stats
-
+📈 GitHub Activity
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=snisharahamad&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
 </div>
