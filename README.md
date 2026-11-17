@@ -48,7 +48,7 @@
 ### 3️⃣ [Traefik Reverse-Proxy Architecture](https://github.com/snisharahamad/architecture-microservices-docker) | *Container Routing & Isolation*
 > **Tech:** Traefik, Docker Compose, Reverse Proxy, Docker Networks
 * Configured a Traefik reverse-proxy to route HTTP traffic dynamically across multiple containerized services using Docker labels.
-* Unified service orchestration under a single `docker-compose.yml` workflow for consistent local deployment.
+* Engineered a centralized Bash orchestrator (`manager.sh`) to manage the lifecycle and deployment of modular services.
 * Segmented backend containers across dedicated bridge networks to prevent direct external exposure.
 
 ### 4️⃣ [Threat Intel Lookup Tool](https://github.com/snisharahamad/Threat-Intel-Analyzer) | *Automated IP & Indicator Enrichment*
