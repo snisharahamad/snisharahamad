@@ -58,8 +58,3 @@
 
 <br/>
 
-## 📈 GitHub Activity
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=snisharahamad&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
-</div>
