@@ -33,13 +33,13 @@
 
 ## 📁 Infrastructure & Security Projects
 
-### 1️⃣ [Cowrie Telemetry Daemon](https://github.com/snisharahamad/sentinel-soar) | *Automated Log Parsing & Alerting*
+### 1️⃣ [Cowrie Telemetry Daemon](https://github.com/snisharahamad/cowrie-telemetry-daemon) | *Automated Log Parsing & Alerting*
 > **Tech:** Python, SQLite, REST APIs, JSON Parsing, dotenv
 * Developed a Python daemon to tail and parse Cowrie SSH honeypot logs in real time via non-blocking I/O.
 * Structured local SQLite storage to archive authentication events and commands for historical queries.
 * Configured an automated alerting pipeline using Discord webhooks and environment variables (`.env`) to report suspicious connection attempts.
 
-### 2️⃣ [Honeypot Observability Stack](https://github.com/snisharahamad/sentinel-honeypott) | *Centralized Log Aggregation (PLG)*
+### 2️⃣ [Honeypot Observability Stack](https://github.com/snisharahamad/cowrie-honeypot-PLG-observability-Stack) | *Centralized Log Aggregation (PLG)*
 > **Tech:** Docker Compose, Cowrie, Promtail, Loki, Grafana
 * Deployed an isolated Cowrie honeypot container to capture unauthorized SSH and Telnet traffic.
 * Configured a local observability pipeline using Promtail to ship container logs into Loki.
